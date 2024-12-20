@@ -4,7 +4,7 @@ import {set_sidebar} from './util/sidebar.mjs'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base:'/vitepress-demo/',
-  head:[['link',{rel:'icon',href:'/vitepress-demo/public/logo.png'}]],
+  head:[['link',{rel:'icon',href:'/vitepress-demo/logo.png'}]],
   title: "玄今男在线文档",
   description: "A VitePress Site",
   themeConfig: {
@@ -61,7 +61,7 @@ export default defineConfig({
     },
     outlineTitle: '目录',
     outline: "deep",
-    logo: '/public/logo.png',
+    logo: '/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', items :[
