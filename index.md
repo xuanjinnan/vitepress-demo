@@ -7,7 +7,7 @@ hero:
   text: "公开文档站点"
   tagline: tagline example
   image:
-    src: "/.vitepress/public/background.png"
+    src: "/public/background.png"
     alt: 玄今男
   actions:
     - theme: brand
