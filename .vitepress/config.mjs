@@ -3,7 +3,7 @@ import {set_sidebar} from './util/sidebar.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:'/',
+  base:'/vitepress-demo/',
   head:[['link',{rel:'icon',href:'/.vitepress/public/logo.png'}]],
   title: "玄今男在线文档",
   description: "A VitePress Site",
